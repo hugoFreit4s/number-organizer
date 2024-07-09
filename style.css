@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(to right, #FF5F6D, #FFC371);
+    height: 100%;
 }
 
 .main{
@@ -33,4 +34,28 @@ span{
     border: 1px solid black;
     border-radius: 8px;
     padding: 5px;
+}
+
+.footer{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+hr{
+    border-color: black;
+    border-style: dashed;
+    width: 100%;
+}
+
+.social{
+    margin-top: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
 }

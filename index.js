@@ -15,10 +15,6 @@ function organizeNumbers() {
     const answerSpace = $('#values');
     let aux;
 
-    // for (let i = 0; i < input.length; i++){
-    //     console.log(typeof(input[i]))
-    // }
-
     for (let i = 0; i < input.length; i++) {
         for (let j = i + 1; j < input.length; j++) {
             if (input[j] < input[i]) {
@@ -29,5 +25,5 @@ function organizeNumbers() {
         }
     }
 
-    // input == '' ? answerSpace.text("Nenhum valor inserido").css(redMessage) : answerSpace.text(input.join(", "));
+    input == '' ? answerSpace.text("Nenhum valor inserido").css(redMessage) : answerSpace.text(input.join(", ")).css('color', 'black');
 }
